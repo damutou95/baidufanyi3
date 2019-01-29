@@ -71,7 +71,7 @@ DOWNLOADER_MIDDLEWARES = {
     'scrapy_splash.SplashCookiesMiddleware': 710,
     'scrapy_splash.SplashMiddleware': 750,
     'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware': 800,
-    #'baidufanyi.middlewares.HttpProxyMiddleware': 810,
+    'baidufanyi.middlewares.HttpProxyMiddleware': 850,
 }
 DUPEFILTER_CLASS = 'scrapy_splash.SplashAwareDupeFilter'
 #HTTPCACHE_STORAGE = 'scrapy_splash.SplashAwareFSCacheStorage'

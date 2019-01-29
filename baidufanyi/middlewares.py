@@ -126,4 +126,4 @@ class HttpProxyMiddleware(object):
             fromUrl = f"http://{ip}:{port}"
             proxies.append(fromUrl)
         proxy = random.choice(proxies)
-        request.meta['proxy'] = proxy
+        request.meta['splash']['args']['proxy'] = proxy
